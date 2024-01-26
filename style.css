@@ -161,7 +161,7 @@ a {
     font-size: 2em;
     font-weight: bold;
     position: absolute;
-    z-index: 1000000000;
+    z-index: 100;
 
 }
 #trending{ 
@@ -480,5 +480,4 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     label span, input {
         display: none;
     }
-}
 }
