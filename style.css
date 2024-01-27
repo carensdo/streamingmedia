@@ -139,20 +139,23 @@ a {
     text-decoration: none;
     color: #ffffff;  
 }
-#button1, #button2, #button3 {
+#button {
     background-color: #590242;
     color: #ffffff;
-    padding: 6px 6px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 3px;
     margin-top: 6px;
+    margin: 10px;
     }
 
 #button:hover {
     background-color: #020659;
     }
+
+/*
 #button1 {
     margin: 10px;
 }
@@ -162,6 +165,7 @@ a {
 #button2{
     margin: 10px;
 }
+*/
 .item1 {
     font-variant: small-caps;
     font-size: 2em;
