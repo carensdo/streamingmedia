@@ -176,19 +176,15 @@ a {
     left: 6rem;
 
 }
-#trending{ 
-    margin-top: 30px;
-}
-#playlists, #curated{
-    margin-top: 70px;
-    }
 #playlists {
     background-color: #44acfb;
     height: 393px;
+    margin-top: 20px;
 }
 #curated{
     background-color: #0e0c98;
     height: 430px;
+    margin-top: 80px;
 }
 #best-of {
     background-color: #1b9cff;
@@ -353,7 +349,6 @@ audio::-webkit-media-controls-enclosure {
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background: #ffffff;
 }
-/*scroll bar code*/
 /*scroll bar code for "your playlists" and "curated playlists"*/
 .scroll2 {
     display: grid;
@@ -496,17 +491,53 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 
 @media screen and (min-width:834px) {
+    body{
+        width: 834px;
+
+    }
+    nav {
+        position: relative;
+        bottom: 150px;
+        width: 834px;
+    }
     ul {
         overflow: visible;
         position: absolute;
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        
     }
+    .container{
+        width: 800px;
+        justify-content: space-around;
+    }
+
     label span, input {
         display: none;
     }
     .item1 {
         position: static;
+}
+.scroll2 {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 300px;
+}
+    footer p{
+        position: relative;
+        left: 18rem;
+        bottom: 1rem;
     }
 }
+
+ /*   #playlists, #curated{
+        display: flex;
+        flex-direction: column;
+        width: 417px;
+        height: 500px;
+*/
+ 
+    }
