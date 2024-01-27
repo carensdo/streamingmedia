@@ -92,12 +92,18 @@ nav {
 
 .container{
     color:#ffffff;
-    position: absolute;
-    top: 0;
+    /*position: absolute;*/
+    top: 50px;
     display: flex;
+    gap: 15px;
     grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    width: 375px;
+
+    /*margin: 0 auto;*/
+    /*width: 375px;*/
+}
+.item2, .item3, .item4{
+    text-transform: uppercase;
+    text-align: center;
 }
 .menu-icon {
     display: block;
@@ -116,6 +122,9 @@ h1, h2, h3 {
 h2 {
     padding: 10px;
     background-color: #ffffff;
+}
+h3 {
+    padding-top: 8px;
 }
 h1 p{
     font-size: 1em;
@@ -145,16 +154,13 @@ a {
     background-color: #020659;
     }
 #button1 {
-    position: relative;
-    right: 1300px;
+    margin: 10px;
 }
 #button3{
-    position: relative;
-    right: 635px;
+    margin: 10px;
 }
 #button2{
-    position: relative;
-    right: 800px;
+    margin: 10px;
 }
 .item1 {
     font-variant: small-caps;
@@ -162,79 +168,93 @@ a {
     font-weight: bold;
     position: absolute;
     z-index: 100;
+    top: 50px;
+    left: 6rem;
 
 }
 #trending{ 
     margin-top: 30px;
 }
 #playlists, #curated{
-    margin-top: 90px;
+    margin-top: 70px;
     }
 #playlists {
     background-color: #44acfb;
+    height: 393px;
 }
 #curated{
     background-color: #0e0c98;
+    height: 430px;
 }
 #best-of {
     background-color: #1b9cff;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 75px;
+    text-align: center;
 }
 #pumpkin {
     background-color: #1b9cff;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 60px;
+    text-align: center;
 }
 #storm {
     background-color: #1b9cff;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 92px;
+    text-align: center;
 }
 #smooth {
     background-color: #1b9cff;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 92px;
+    text-align: center;
 }
 #study {
     background-color: #1b9cff;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 60px;
+    text-align: center;
 }
 #boozy{
     background-color: #0b0a77;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 95px;
+    text-align: center;
 }
 #party{
     background-color: #0b0a77;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 80px;
+    text-align: center;
 }
 #mellow {
     background-color: #0b0a77;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 100px;
+    text-align: center;
 }
 #chill{
     background-color: #0b0a77;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 112px;
+    text-align: center;
 }
 #sax{
     background-color: #0b0a77;
     color:#ffffff;
     padding: 20px;
     padding-bottom: 112px;
+    text-align: center;
 }
 footer{
     background-color: #ffffff;
@@ -426,6 +446,8 @@ label {
     padding: 28px 20px;
     position: relative;
     user-select: none;
+    top: 0;
+    width: 20px;
 }
 label span {
     background-color: #ffffff;
@@ -479,5 +501,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
     label span, input {
         display: none;
+    }
+    .item1 {
+        position: static;
     }
 }
