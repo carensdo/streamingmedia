@@ -142,7 +142,10 @@ a {
     text-decoration: none;
     color: #ffffff;  
 }
-#button {
+nav a:hover{
+    background-color: #590242;
+}
+main a {
     background-color: #590242;
     color: #ffffff;
     padding: 10px 15px;
@@ -154,7 +157,7 @@ a {
     margin: 10px;
     }
 
-#button:hover {
+main a:hover {
     background-color: #020659;
     }
 
@@ -639,7 +642,7 @@ img{
     grid-template-rows: 1fr 1fr;
     align-items: center;
 }
-#button{
+main a{
     display: block;
     margin-left: auto;
     width: max-content;
