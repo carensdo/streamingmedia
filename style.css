@@ -83,7 +83,7 @@ header {
     bottom: 10px;
 }
 nav {
-    background-color: #2104D9;
+    background-color: #0e0c98;
     color:#ffffff;
     position: relative;
     bottom: 195px;
@@ -537,46 +537,114 @@ main{
 #playlists{
     grid-column-start: 1;
     grid-column-end: 2;
-    height: 430px;
+    height: 420px;
 
 }
 #curated{
     grid-column-start: 2;
     grid-column-end: 3;
     margin-top: 20px;
+    height: 420px;
+    
 }
 div section{
     padding-bottom: 0;
 }
 #best-of {
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+div p{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+img{
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 #pumpkin {
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 #storm {
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+
 }
 #smooth {
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 #study {
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 #boozy{
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 #party{
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 #mellow {
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 #chill{
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 #sax{
-    padding-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+#button{
+    display: block;
+    margin-left: auto;
+    width: max-content;
+    
+    
 }
 .scroll2 {
     display: grid;
@@ -587,7 +655,7 @@ div section{
 }
     footer p{
         position: relative;
-        left: 18rem;
+        left: 19rem;
         bottom: 1rem;
     }
 }
