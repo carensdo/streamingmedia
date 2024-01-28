@@ -126,6 +126,9 @@ h2 {
 h3 {
     padding-top: 8px;
 }
+#success{
+    font-size: 1.18em;
+}
 h1 p{
     font-size: 1em;
     margin: 0 auto;
@@ -521,10 +524,66 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     .item1 {
         position: static;
 }
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+#trending{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#playlists{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 430px;
+
+}
+#curated{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 20px;
+}
+div section{
+    padding-bottom: 0;
+}
+#best-of {
+    padding-bottom: 0;
+}
+#pumpkin {
+    padding-bottom: 0;
+}
+#storm {
+    padding-bottom: 0;
+}
+#smooth {
+    padding-bottom: 0;
+}
+#study {
+    padding-bottom: 0;
+}
+#boozy{
+    padding-bottom: 0;
+}
+#party{
+    padding-bottom: 0;
+}
+#mellow {
+    padding-bottom: 0;
+}
+#chill{
+    padding-bottom: 0;
+}
+#sax{
+    padding-bottom: 0;
+}
 .scroll2 {
+    display: grid;
+    grid-template-columns: 1fr;
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 300px;
+    max-height: 380px;
 }
     footer p{
         position: relative;
